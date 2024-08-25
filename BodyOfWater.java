@@ -1,17 +1,17 @@
 public class BodyOfWater {
     private String name;
-    private int largestDiameter;
-    private int avgDepth;
+    private double largestDiameter;
+    private double avgDepth;
     private boolean isSaltWater;
 
-    public BodyOfWater(String n, int l, int d, boolean s){
+    public BodyOfWater(String n, double l, double d, boolean s){
         name = n;
         largestDiameter = l;
         avgDepth = d;
         isSaltWater = s;
     }
 
-    public BodyOfWater(String n, int d){
+    public BodyOfWater(String n, double d){
         name = n;
         avgDepth = d;
     }
@@ -20,23 +20,23 @@ public class BodyOfWater {
         name = n;
     }
 
-    public void setLargestDiameter(int s){
+    public void setLargestDiameter(double s){
         largestDiameter = s;
     }
 
-    public String getName() {
+    public String getName(){
         return name;
     }
 
-    public int getLargestDiameter() {
+    public double getLargestDiameter(){
         return largestDiameter;
     }
 
-    public int getAvgDepth() {
+    public double getAvgDepth(){
         return avgDepth;
     }
 
-    public boolean isSaltWater() {
+    public boolean isSaltWater(){
         return isSaltWater;
     }
 
